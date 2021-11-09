@@ -14,7 +14,7 @@ def generateNumber():
     return str(random.randint(1, 9))
 
 
-def generateSymbol():
+def generate_symbol():
     return random.choice('~ # $ % ^ & * ( )  + = - [ ] / \' . , < > ?'.split())
 
 
@@ -29,7 +29,7 @@ def generatePassword(liczbaZnakow):
         elif choice == 3:
             password += generateNumber()
         else:
-            password += generateSymbol()
+            password += generate_symbol()
     return password
 
 
