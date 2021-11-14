@@ -7,7 +7,7 @@ def generateUpperCaseLetter():
 
 
 def generateLowerCaseLetter():
-    return random.choice(string.asciilowercase)
+    return random.choice(string.ascii_lowercase)
 
 
 def generateNumber():
@@ -35,4 +35,4 @@ def generatePassword(liczbaZnakow):
 
 iloscZnakow = int(input("Ile znaków ma mieć hasło: "))
 genteratedPassword = generatePassword(iloscZnakow)
-print(genteratedPassword)
+print("Twoje hasło to: ", genteratedPassword)
