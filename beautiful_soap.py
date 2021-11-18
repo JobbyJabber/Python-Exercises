@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.wp.pl/'
+url = 'https://www.wp./'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headers = soup.find_all('h3')
