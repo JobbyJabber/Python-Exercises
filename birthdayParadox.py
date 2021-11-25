@@ -13,3 +13,5 @@ def getBirtday(numberOfBirthDays): #my tu będziemy wpisywać potem ile generowa
 
 
 getBirtday(int(input("Ile ich ma być? ")))
+
+#Not finished yet.
