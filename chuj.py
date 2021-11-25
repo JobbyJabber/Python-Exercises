@@ -1,5 +1,3 @@
 word = "Chuj"
-odword = reversed(word)
+odword = list(reversed(word))
 print(odword)
-
-__

@@ -6,11 +6,8 @@ def wprowadzWyraz():
     wyraz = input("Wprowadź swój wyraz: ")
     if 'urce' in wyraz or 'URCE' in wyraz:
         print("WYKRYTO TAJNY KOD")
-        print("Hasło do WIFI: CycekDebil123")
+        print("Hasło do WIFI: Spadochron")
     return wyraz
-
-
-
 
 def szyfrowanie(litera, alfabet):
     # Funkcja szyfruje podany wcześniej wyraz
@@ -25,7 +22,6 @@ def szyfrowanie(litera, alfabet):
     zaszyfrowany_znak = alfabet[po_dodaniu]
     # znak który będzie po zmianie
     return zaszyfrowany_znak
-
 
 wyraz = wprowadzWyraz()
 zaszyfrowany_wyraz = ""
