@@ -1,4 +1,5 @@
-x = 0
-while x < 10:
-        print("test")
-        x = x+1
+
+
+import sys
+print("You entered: ",sys.argv[1], sys.argv[2], sys.argv[3])
+
