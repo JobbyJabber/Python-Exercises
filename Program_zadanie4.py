@@ -67,7 +67,7 @@ def stworzPesel(wiek, gender):
 
 
 def menu():
-    rodzina = [['c', 1, '2', 3, '4'], ['sip', 5, '6', 7, '8']]
+    rodzina = []
     exit = False
     while not exit:
         print("Menu Aplikacji")

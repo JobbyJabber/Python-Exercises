@@ -29,5 +29,5 @@ def checkGuess(nums):
 
 
 generateNumber()
-print(numbers)
+
 checkGuess(numbers)
