@@ -1,5 +1,5 @@
 # Python-Exercises
-Exercises from http://www.practicepython.org
+Exercises from http://www.practicepython.org and others
 
 
 Hi i have just started learning Python3 and i really loved it. I decided to start portfolio aswell. Here are basic/a little intermediate exercieses/miniprojects that i found on the Internet*. 
